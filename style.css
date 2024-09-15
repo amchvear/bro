@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.cell {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+.x {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.o {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
